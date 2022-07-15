@@ -7,13 +7,11 @@ Compare the performance of different Lua implementations
 Computer information:
 
 ```
-Distro: CentOS release 6.8 (Final)
-Kernel: 2.6.32-642.13.1.el6.x86_64
-CPU:    Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+Distro: Ubuntu 22.04 LTS
+Kernel: 4.4.0-19041-Microsoft
+CPU:    Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
 ```
-![](https://raw.githubusercontent.com/gligneul/Lua-Benchmarks/master/results/speedup_luajit.png)
-![](https://raw.githubusercontent.com/gligneul/Lua-Benchmarks/master/results/speedup_lua53.png)
-![](https://raw.githubusercontent.com/gligneul/Lua-Benchmarks/master/results/speedup_lua5.png)
+![](https://raw.githubusercontent.com/learno/Lua-Benchmarks/master/results/speedup_lua54.png)
 
 ## Usage
 

@@ -1,0 +1,14 @@
+test	lua-5.4.4	lua-5.3.6	lua-5.2.4	lua-5.1.5	
+ack	0.76	1.2	1.25	1.29	
+fixpoint-fact	1.4	1.32	1.48	1.31	
+heapsort	1.95	2.78	3.67	3.31	
+mandelbrot	1.57	1.87	2.53	2.26	
+juliaset	1.32	1.68	2.01	1.89	
+queen	2.04	2.56	3.01	2.6	
+sieve	1.21	1.76	2.37	2.31	
+binary	1.82	3.54	3.17	4.48	
+n-body	1.67	2.25	3.23	2.96	
+fannkuch	1.75	2.57	3.62	3.23	
+fasta	1.5	1.84	1.68	1.71	
+k-nucleotide	2.64	2.75	2.96	3.12	
+spectral-norm	1.65	2.26	2.42	2.1	

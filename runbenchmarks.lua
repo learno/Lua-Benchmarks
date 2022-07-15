@@ -4,9 +4,10 @@
 
 -- List of binaries that will be tested
 local binaries = {
-    { 'lua-5.3.4', 'lua' },
-    { 'luajit-2.0.4-interp', 'luajit -joff' },
-    { 'luajit-2.0.4', 'luajit' },
+    { 'lua-5.4.4', 'lua5.4' },
+    { 'lua-5.3.6', 'lua5.3' },
+    { 'lua-5.2.4', 'lua5.2' },
+    { 'lua-5.1.5', 'lua5.1' },
 }
 
 -- List of tests
@@ -97,7 +98,7 @@ local function measure(cmd)
             ' > /dev/null; } 2>&1'
     local handle = io.popen(time_cmd)
     local result = handle:read("*a")
-    local time_elapsed = tonumber(result)
+    local time_elapsed = tonumber(result:match('%d*%.?%d+'))
     handle:close()
     if not time_elapsed then
         error('Invalid output for "' .. cmd .. '":\n' .. result)
